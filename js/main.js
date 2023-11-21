@@ -17,32 +17,38 @@ let team = [
     {
         name: "Wayne",
         surname: "Barnett",
-        role: "Founder & CEO"
+        role: "Founder & CEO",
+        image: "img\wayne-barnett-founder-ceo.jpg"
     },
     {
         name: "Angela",
         surname: "Carroll",
-        role: "Chief Editor"
+        role: "Chief Editor",
+        image: "img\angela-caroll-chief-editor.jpg"
     },
     {
         name: "Walter",
         surname: "Gordon",
-        role: "Office Manager"
+        role: "Office Manager",
+        image: "img\walter-gordon-office-manager.jpg"
     },
     {
         name: "Angela",
         surname: "Lopez",
-        role: "Social Media Manager"
+        role: "Social Media Manager",
+        image: "img\angela-lopez-social-media-manager.jpg"
     },
     {
         name: "Scott",
         surname: "Estrada",
-        role: "Developer"
+        role: "Developer",
+        image: "img\scott-estrada-developer.jpg"
     },
     {
         name: "Barbara",
         surname: "Ramos",
-        role: "Graphic Designer"
+        role: "Graphic Designer",
+        image: "img\barbara-ramos-graphic-designer.jpg"
     }
 ];
 
