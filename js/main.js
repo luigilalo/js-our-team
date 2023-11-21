@@ -18,37 +18,37 @@ let team = [
         name: "Wayne",
         surname: "Barnett",
         role: "Founder & CEO",
-        image: "img\wayne-barnett-founder-ceo.jpg"
+        image: "./img/wayne-barnett-founder-ceo.jpg"
     },
     {
         name: "Angela",
         surname: "Carroll",
         role: "Chief Editor",
-        image: "img\angela-caroll-chief-editor.jpg"
+        image: "./img/angela-caroll-chief-editor.jpg"
     },
     {
         name: "Walter",
         surname: "Gordon",
         role: "Office Manager",
-        image: "img\walter-gordon-office-manager.jpg"
+        image: "./img/walter-gordon-office-manager.jpg"
     },
     {
         name: "Angela",
         surname: "Lopez",
         role: "Social Media Manager",
-        image: "img\angela-lopez-social-media-manager.jpg"
+        image: "./img/angela-lopez-social-media-manager.jpg"
     },
     {
         name: "Scott",
         surname: "Estrada",
         role: "Developer",
-        image: "img\scott-estrada-developer.jpg"
+        image: "./img/scott-estrada-developer.jpg"
     },
     {
         name: "Barbara",
         surname: "Ramos",
         role: "Graphic Designer",
-        image: "img\barbara-ramos-graphic-designer.jpg"
+        image: "./img/barbara-ramos-graphic-designer.jpg"
     }
 ];
 
@@ -62,6 +62,24 @@ for (let i = 0; i < team.length; i++) {
         let membersDetails = members[key];
         console.log(`${key}: ${membersDetails}`);
     };
+}
+
+let pushCardhtml;
+for (let i = 0; i < team.length; i++) {
+pushCardhtml = document.getElementById("card").innerHTML += `
+<div class="col-4"> <div class="card">
+<img src="${team[i].image}" class="card-img-top" alt="FotoProfilo">
+<div class="card-body">
+  <h5 class="card-title">${team[i].name}</h5>
+  <p class="card-text">
+  ${team[i].role}</p>
+  
+</div>
+</div>
+</div>`
+
+
+    
 }
 
 
