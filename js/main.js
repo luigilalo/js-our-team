@@ -45,6 +45,18 @@ let team = [
         role: "Graphic Designer"
     }
 ];
-console.log(team)
+
+
+// Stampo nella console le informazioni
+
+for (let i = 0; i < team.length; i++) {
+    let members = team[i];
+    console.log("---------- Member" + " " + (i + 1) + " -----------")
+    for (let key in members) {
+        let membersDetails = members[key];
+        console.log(`${key}: ${membersDetails}`);
+    };
+}
+
 
 // ---------------------------------------- FUNZIONI --------------------------------------
